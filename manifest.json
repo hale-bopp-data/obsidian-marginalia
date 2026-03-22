@@ -1,0 +1,10 @@
+{
+  "id": "marginalia",
+  "name": "Marginalia — Vault Quality Scanner",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Scan your vault for quality issues, discover missing links between notes, and auto-fix frontmatter. Powered by the marginalia CLI (pip install marginalia).",
+  "author": "hale-bopp-data",
+  "authorUrl": "https://github.com/hale-bopp-data",
+  "isDesktopOnly": true
+}
