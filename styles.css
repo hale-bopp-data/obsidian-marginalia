@@ -1,0 +1,152 @@
+/* marginalia — Obsidian Plugin Styles */
+
+/* Panel */
+.marginalia-panel {
+  padding: 12px;
+  font-size: 0.9em;
+}
+
+.marginalia-toolbar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.marginalia-toolbar button {
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+.marginalia-status {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  font-style: italic;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 8px;
+}
+
+.marginalia-section-title {
+  font-weight: 600;
+  color: var(--text-accent);
+  margin: 10px 0 4px;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.marginalia-issue {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-size: 0.82em;
+}
+
+.marginalia-issue-type {
+  color: var(--text-error);
+  font-weight: 600;
+  white-space: nowrap;
+  min-width: 120px;
+}
+
+.marginalia-issue-file {
+  color: var(--text-accent);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.marginalia-issue-file:hover {
+  color: var(--interactive-accent);
+}
+
+.marginalia-suggestion {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-size: 0.82em;
+}
+
+.marginalia-suggestion-from {
+  font-weight: 600;
+  color: var(--text-normal);
+}
+
+.marginalia-suggestion-to {
+  color: var(--text-accent);
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.marginalia-suggestion-score {
+  color: var(--text-muted);
+  font-size: 0.8em;
+  margin-left: 6px;
+}
+
+.marginalia-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 0.85em;
+  padding: 8px 0;
+}
+
+.marginalia-clean {
+  color: var(--text-success, #3cb371);
+  font-weight: 600;
+}
+
+/* Onboarding modal */
+.marginalia-onboarding {
+  max-width: 480px;
+}
+
+.marginalia-onboarding h2 {
+  margin-bottom: 12px;
+}
+
+.marginalia-onboarding pre {
+  background: var(--background-secondary);
+  padding: 12px;
+  border-radius: 6px;
+  margin: 8px 0;
+  user-select: all;
+}
+
+.marginalia-onboarding-ok {
+  color: var(--text-success, #3cb371);
+  font-weight: 600;
+}
+
+.marginalia-onboarding-missing {
+  color: var(--text-error);
+  font-weight: 600;
+}
+
+.marginalia-onboarding-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+/* Settings status */
+.marginalia-settings-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding: 8px;
+  background: var(--background-secondary);
+  border-radius: 6px;
+}
+
+.marginalia-status-ok {
+  color: var(--text-success, #3cb371);
+}
+
+.marginalia-status-missing {
+  color: var(--text-error);
+}
